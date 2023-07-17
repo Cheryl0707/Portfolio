@@ -2,16 +2,17 @@
 body {
     font-family: sans-serif;
     /* padding: 2rem; */
-    background-color: rgb(249, 249, 249);
+    background-color: beige;
     /* margin: 1rem; */
 }
-
+h1,h2,h3,h4{
+    font-family:'Monument Extended';
+}
 header {
     width: 100%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: beige;
     border: 1px solid black;
 
 }
@@ -46,7 +47,7 @@ nav a{
 }
 nav a:hover, .nav a:focus{
  
-    color: rgb(255, 106, 0);
+    color: rgb(255, 60, 60);
     text-decoration: none;
     transition: background-color 0.5s ease-out;
 }
@@ -55,7 +56,6 @@ nav a:hover, .nav a:focus{
     border: 1px solid black;
     width:100%;
     height: 80vh;
-    background-color: beige;
 }
 
 .main-intro-headline{
@@ -71,20 +71,31 @@ nav a:hover, .nav a:focus{
 }
 
 .projects{
-    
+    border: 1px solid black;
 }
 
-  
-/* 
-  
-  .project {
-    margin-bottom: 20px;
-  }
-  
-  footer {
+.section-header{
+    border: 1px solid black;
+}
+
+.section-header h2{
+    font-size: 2rem;
+    margin-left: 2rem;
+    font-family:'Monument Extended';
+}
+
+.section-header h2:hover, .section-header h2:focus{
+    color: rgb(255, 60, 60);
+    text-decoration: none;
+    transition: background-color 0.5s ease-out;
+}
+
+
+
+footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-  }
-   */
+}
+   
