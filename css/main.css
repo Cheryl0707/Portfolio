@@ -1,0 +1,90 @@
+
+body {
+    font-family: sans-serif;
+    /* padding: 2rem; */
+    background-color: rgb(249, 249, 249);
+    /* margin: 1rem; */
+}
+
+header {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: beige;
+    border: 1px solid black;
+
+}
+h1{
+    color:rgb(0, 0, 0);
+    font-family:'Monument Extended';
+    padding: 0.5rem;
+    margin-left: 2rem;
+    font-size: 2.0rem;
+}
+h1:hover, h1:focus{
+    color:rgb(255, 60, 60);
+    font-family:'Monument Extended';
+    padding: 0.5rem;
+    margin-left: 2rem;
+    font-size: 2.0rem;
+}
+
+nav{
+    margin-right: 2rem;
+    margin-top: 2.5rem;
+}
+
+nav a{
+    /* background-color: rgb(255, 64, 0); */
+    
+      color:rgb(0, 0, 0);
+      font-family:'Monument Extended';
+      margin-right: 2rem;
+      font-size: 1.0rem;
+      text-decoration: none;
+}
+nav a:hover, .nav a:focus{
+ 
+    color: rgb(255, 106, 0);
+    text-decoration: none;
+    transition: background-color 0.5s ease-out;
+}
+
+.main-intro{
+    border: 1px solid black;
+    width:100%;
+    height: 80vh;
+    background-color: beige;
+}
+
+.main-intro-headline{
+    display: flex;
+   
+}
+.main-intro-headline p{
+    margin: 4rem;
+    font-family:'Monument Extended';
+    /* justify-content: center; */
+    text-decoration: none;
+    font-size: 5.0rem;
+}
+
+.projects{
+    
+}
+
+  
+/* 
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+   */
