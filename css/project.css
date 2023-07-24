@@ -28,7 +28,51 @@ body{
 
 .project-intro-description-description p{
     color:rgb(255, 255, 255);
-    font-family:'Monument Extended';
-    font-size: 0.8rem;
+    font-family:'Roobert-Regular';
+    font-size: 1rem;
 }
 
+.project-intro-description-everything-at-a-glance{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin-left:3rem;
+    margin-top: 3rem;
+}
+
+.Project-type{
+    color:rgb(255, 255, 255);
+    font-family:'Monument Extended';
+}
+
+.Project-type p{
+    color: rgb(255, 255, 255);
+    font-family: 'Roobert-Regular';
+}
+
+.Roles{
+    color:rgb(255, 255, 255);
+    font-family:'Monument Extended';
+}
+.Roles p{
+    color:rgb(255, 255, 255);
+    font-family: 'Roobert-Regular';
+}
+
+.Date{
+    color:rgb(255, 255, 255);
+    font-family:'Monument Extended';
+}
+.Date p{
+    color:rgb(255, 255, 255);
+    font-family: 'Roobert-Regular';
+}
+.Tools{
+    color:rgb(255, 255, 255);
+    font-family:'Monument Extended';
+}
+.Tools p{
+    color:rgb(255, 255, 255);
+    font-family: 'Roobert-Regular';
+}
