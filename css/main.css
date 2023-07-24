@@ -6,8 +6,9 @@ body {
     /* margin: 1rem; */
 }
 h1,h2,h3,h4{
-    font-family:'Monument Extended';
+    font-family:'Brick', sans-serif;
 }
+
 header {
     width: 100%;
     display:flex;
@@ -85,7 +86,7 @@ nav a:hover, .nav a:focus{
     font-family:'Monument Extended';
 }
 
-.section-header h2:hover, .section-header h2:focus{
+.section-header h2:hover, .section-header:focus{
     color: rgb(113, 103, 251);
     text-decoration: none;
     transition: background-color 0.5s ease-out;
@@ -124,7 +125,7 @@ footer {
     background-color:rgb(0, 0, 0);
     border: 1px solid rgb(255, 255, 255);
     color: #ffffff;
-    padding: 30px 0;
+    padding: 30px 0;height: 2px;
     
   }
   

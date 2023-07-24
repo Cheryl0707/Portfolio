@@ -3,6 +3,32 @@ body{
     border: 1px solid white;
 }
 
-.projects{
+.project-intro-description{
+    
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid white;
     
 }
+
+.project-intro-description-title{
+    margin-top: 10rem;
+    margin-left: 3rem;
+}
+.project-intro-description-title h2{
+    color:rgb(255, 255, 255);
+    font-family:'Monument Extended';
+    font-size: 3rem;
+}
+
+.project-intro-description-description{
+    margin-left: 3rem;
+    width: 50%;
+}
+
+.project-intro-description-description p{
+    color:rgb(255, 255, 255);
+    font-family:'Monument Extended';
+    font-size: 0.8rem;
+}
+

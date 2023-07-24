@@ -18,3 +18,10 @@
     font-style: normal;
     src:url(../fonts/Roobert-Regular.ttf)
 }
+
+@font-face{
+    font-family:'Sans-Serif';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../fonts/Brick.otf)
+}
