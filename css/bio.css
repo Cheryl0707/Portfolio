@@ -1,0 +1,14 @@
+.profile{
+    /* width: 100vw; */
+    display: flex;
+    justify-content:flex-start;
+    padding: 3rem;
+}
+
+.profile-image{
+    padding:3rem;
+}
+
+.profile-intro{
+    padding:3rem;
+}
