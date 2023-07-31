@@ -77,12 +77,14 @@ body{
 }
 
 /* detail */
+
 .project-detail{
     width: 100%;
     display: flex;
     justify-content: flex-start;
     /* height: 100vh; */
-    border: 1px solid white;
+    /* border: 1px solid white; */
+
     /* padding-right: 0.5rem; */
     /* background-image: url("../image/chapel-b&w.jpg" );
     background-repeat: no-repeat;
@@ -114,6 +116,17 @@ body{
 .project-intro-relate-image{
     margin-top: 4rem;
     margin-right: 16rem;
+    margin-bottom: 4rem;
 }
 
 
+/* 
+.project-grid{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid1{
+
+} */

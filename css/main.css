@@ -76,7 +76,7 @@ nav a:hover, .nav a:focus{
 .main-intro{
     border: 1px solid rgb(255, 255, 255);
     width:100%;
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 .main-intro-headline{
@@ -186,3 +186,53 @@ footer {
     font-size: 14px;
   }
   
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    h1 {
+        margin-left: 0; /* Remove the left margin on the h1 element */
+    }
+
+    nav {
+        margin-right: 0; /* Remove the right margin on the nav element */
+        margin-top: 1rem; /* Adjust the top margin on the nav element */
+    }
+
+    nav a {
+        margin-right: 0; /* Remove the right margin on the navigation links */
+        margin-bottom: 1rem; /* Add some spacing between the navigation links */
+    }
+
+    .main-intro-headline p {
+        font-size: 2.5rem; /* Reduce the font size of the intro text for mobile devices */
+        margin: 2rem; /* Adjust the margins for better spacing */
+    }
+
+    .project-card img {
+        width: 100%; /* Make the project images span the full width of the screen */
+        height: auto; /* Ensure the aspect ratio of images is maintained */
+    }
+
+    footer {
+        padding: 20px 0; /* Reduce the footer padding for better spacing on mobile */
+    }
+
+    .footer-content {
+        flex-direction: column; /* Stack footer sections in a column */
+        align-items: center; /* Center align the footer content */
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%; /* Make the footer sections span the full width of the screen */
+        text-align: center; /* Center align the footer section content */
+        margin-bottom: 1rem; /* Add spacing between footer sections */
+    }
+
+    .bottom-section p {
+        font-size: 12px; /* Reduce the font size for the copyright text */
+    }
+}
