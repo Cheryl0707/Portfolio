@@ -1,5 +1,6 @@
 
 body {
+    width: 100%;
     font-family: sans-serif;
     /* padding: 2rem; */
     background-color: rgb(228, 228, 228);
@@ -15,7 +16,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
     border: 1px solid rgb(0, 0, 0);
-
 }
 
 a{
@@ -227,6 +227,7 @@ footer {
     }
 
     footer {
+        width: 98%;
         padding: 20px 0; /* Reduce the footer padding for better spacing on mobile */
     }
 

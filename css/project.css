@@ -1,5 +1,5 @@
 body{
-    width: 98vw;
+    width: 100vw;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(0, 0, 0);
     margin: 1px;
@@ -7,9 +7,8 @@ body{
 
 .project-intro-description{
     width: 100vw;
-    /* height: 90vh; */
     border: 1px solid rgb(0, 0, 0); 
-    padding-right: 0.5rem;
+
 }
 
 .project-intro-description-title{
@@ -104,7 +103,6 @@ body{
     display: flex;
     /* justify-content:flex-start; */
     flex-direction: column;
-    height:50vh;
 }
 
 .project-intro p{
@@ -140,9 +138,10 @@ body{
 
 
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 1000px) {
     .project-detail{
-        width: 100vw;
+        width: 98vw;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -181,6 +180,18 @@ body{
         margin-top: 1rem;
         margin-right: 2rem;
         margin-bottom: 1rem;
+    }
+
+    .grids-display{
+        width: 98vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .grid-section{
+        width: 90%;
+        margin: 1rem;
     }
 
 }
