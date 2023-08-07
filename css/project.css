@@ -138,6 +138,8 @@ body{
     margin: 1rem;
 }
 
+
+
 @media screen and (max-width: 600px) {
     .project-detail{
         width: 100vw;
@@ -155,6 +157,7 @@ body{
         margin-left:6rem;
         margin-top: 3rem;
     }
+
     /* .project-intro-img{
     
         height:57vh;
@@ -162,6 +165,7 @@ body{
         flex-direction: column;
         margin-bottom: 5rem;
     } */
+
     .project-intro{
         margin: 1rem;
         padding-left: 1rem;
