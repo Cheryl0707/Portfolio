@@ -2,10 +2,21 @@
 <html>
     <head>
         <title>Cheryl Liu</title>
+        
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
+        <!-- <link rel="stylesheet" href="./cursor.scss"> -->
     </head>
     <body>
+        <div class="cursor"></div>
+          <script>
+            var cursor = document.querySelector(".cursor");
+            document.addEventListener("mousemove",function(e){
+                cursor.style.top = e.pageY + "px";
+                cursor.style.left = e.pageX + "px";
+            })
+          </script>
+
         <header>
             <h1><a href="home.html">Cheryl's Portfolio</a></h1>
             <nav>
@@ -23,10 +34,13 @@
                 </div>
             </div>
           </section>
+
           
           <section id="PROJECT">
             <div class="section-header">
-                <h2>PROJECTS</h2>
+                <h2 class="marquee">
+                    <span>PROJECTS - PROJECTS -  PROJECTS - PROJECTS - PROJECTS - PROJECTS - PROJECTS</span>
+                </h2>
             </div>
             <div class="projects">
                 <div class="project-card">
@@ -44,8 +58,9 @@
                 <div class="project-card">
                     <div class="project-card-detail">
                         <h3>Music Recitals in Holland Park</h3>
-                        <p>We were inspired by Holland park since this location is very void and spacious, there is a lot of sunlight that is able to enter the pavilion. As our main theme of the pavilion design is nature, we hope that more natural light could enter the interior space and so we have chosen a location that could get in touch with the most sunlight during day time. That could help enrich users' experience on the aspect of nature when they enter our pavilion. Furthermore, since there is a large blank meadow facing the front entrance, users can actually see sceneries, buildings, and trees from the far side. With the use of grass, we have created an open but also private space for people to enjoy their time within the pavilion. Overall, with the help of natural lights and sceneries, users can enjoy the time and space inside our pavilion by temporary putting down the oppression that daily life brought them, </p>
-                    </div>
+                        <p>The musical recital is a relax and chill open space in Holland Park. We sought to integrate nature into our design ethos. Our emphasis on nature led us to strategically position the pavilion to maximize natural light penetration, creating an interior space that connects intimately with the sun's radiance throughout the day. This deliberate choice enhances the visitors' immersion in the natural surroundings upon entering the pavilion.
+                        </p>
+                        </div>
                     <div class="project-card-image">
                         <a href="../Portfolio/html/pavillion.html"><img src="image/p-intro2.png" alt="chapel-project-img"></a>
                     </div>
@@ -54,6 +69,16 @@
             
         </section>
 
+        
+
+        <section id="contact-me">
+            <div class="section-header">
+                <h2 class="marquee">
+                    <span>CONTACT - CONTACT -  CONTACT - CONTACT - CONTACT - CONTACT - CONTACT</span>
+                </h2>
+            </div>
+
+        </section>
         <footer>
             <div class="footer-content">
                 <div class="left-section">
