@@ -11,7 +11,7 @@ body {
 } */
 
 header {
-    width: 100%;
+    width: 100vw;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -34,7 +34,7 @@ p{
     
 }
 a:hover, a:focus{
-    color:rgb(113, 103, 251);
+    color:rgb(163, 158, 237);
 }
 
 h1{
@@ -45,7 +45,7 @@ h1{
     font-size: 2.0rem;
 }
 h1:hover, h1:focus{
-    color:rgb(113, 103, 251);
+    color:rgb(163, 158, 237);
     font-family:'Monument Extended';
     padding: 0.5rem;
     margin-left: 2rem;
@@ -70,7 +70,7 @@ nav a{
 }
 nav a:hover, .nav a:focus{
  
-    color: rgb(113, 103, 251);
+    color: rgb(163, 158, 237);
     text-decoration: none;
     transition: background-color 0.5s ease-out;
 }
@@ -78,7 +78,7 @@ nav a:hover, .nav a:focus{
 .main-intro{
     border: 1px solid rgb(0, 0, 0);
     width:100%;
-    /* height: 80vh; */
+
 }
 
 .main-intro-headline{
@@ -109,7 +109,7 @@ nav a:hover, .nav a:focus{
 }
 
 .section-header h2:hover, .section-header:focus{
-    color: rgb(113, 103, 251);
+    color: rgb(163, 158, 237);
     text-decoration: none;
     transition: background-color 0.5s ease-out;
 }
@@ -118,7 +118,7 @@ nav a:hover, .nav a:focus{
     display: flex;
     justify-content: space-between;
     border: 1px solid rgb(0, 0, 0);
-    width:100%;
+    width:100vw;
     /* height: 50vh; */
 
 }
@@ -130,18 +130,40 @@ nav a:hover, .nav a:focus{
 }
 
 .project-card p{
-    width: 80%;
+    width: 40vw;
     color:rgb(0, 0, 0);
     margin-top: 3rem;
     margin-left: 2rem;
 
 }
 .project-card img{
-    width: 640px;
-    height: 360px;
-    margin: 2rem;
+    width: 40vw;
+    height: auto;
+    /* margin: 2rem; */
 
 }
+.project-card-image{
+    width: 40vw;
+    margin: 2rem;
+    height: auto;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+.project-card-image img {
+    
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.project-card-image:hover img{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    opacity:0.5;
+}
+
 
 
 footer {
@@ -166,7 +188,7 @@ footer {
   }
   .footer-content a:hover, .footer-content a:hover{
     text-decoration: none;
-    color:rgb(113, 103, 251);
+    color:rgb(163, 158, 237);
   }
   
   .left-section,
@@ -188,9 +210,10 @@ footer {
   .bottom-section p {
     font-size: 14px;
   }
+
   
-  
-  
+
+
   
 @media screen and (max-width: 600px) {
     header {
