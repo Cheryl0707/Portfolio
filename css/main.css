@@ -32,6 +32,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     border: 1px solid rgb(0, 0, 0);
+    /* background-color:linear-gradient(135deg, rgb(163, 158, 237),rgb(237, 163, 226)); */
 }
 
 a{
