@@ -20,7 +20,7 @@ body {
     font-family: sans-serif;
     /* padding: 2rem; */
     background-color: rgb(228, 228, 228);
-    /* margin: 1rem; */
+    margin: 2rem;
 }
 /* h1,h2,h3,h4{
     font-family:'Brick', sans-serif;
@@ -112,21 +112,26 @@ nav span a:hover, nav span a:focus{
     /* border: 1px solid rgb(0, 0, 0); */
     width:100VW;
     height: 50vw;
+    display: flex;
+    justify-content: center;
 }
 
 .main-intro-headline{
     display: flex;
     flex-direction: column;
+    justify-content: center;
    
 }
-/* .main-intro-headline p{
+.main-intro-headline span h2{
+    color: rgb(163, 158, 237);
+    text-shadow: 0 0 9px rgb(198, 194, 255);
+}
 
-} */
 
 .main-intro-headline-big{
-    margin-top: 10rem;
+    /* margin-top: 10rem;
     margin-bottom: 1rem;
-    margin-left: 6rem;
+    margin-left: 6rem; */
     font-family:'Monument Extended';
     color:rgb(60, 60, 60);
     text-decoration: bold;
@@ -134,7 +139,7 @@ nav span a:hover, nav span a:focus{
 }
 .main-intro-headline-small{
     margin-top: 1rem;
-    margin-left: 6rem;
+
     font-family:'Monument Extended';
     color:rgb(60, 60, 60);
     text-decoration: none;
