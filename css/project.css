@@ -1,13 +1,13 @@
 body{
     width: 100vw;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
     /* margin: 1rem; */
 }
 
 .project-intro-description{
     width: 100vw;
-    border: 1px solid rgb(0, 0, 0); 
+    /* border: 1px solid rgb(0, 0, 0);  */
 }
 
 .project-intro-description-title{
@@ -161,16 +161,17 @@ body{
 
 /* grid column */
 
-.grids-display{
-    width: 100vw;
+.grids4-display{
+    width: 90vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .grid-section{
-    width: 22vw;
+    width: 23vw;
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 1rem;
 }
 .grid-section img{
@@ -214,13 +215,15 @@ body{
     }
     
     .project-intro-description-title{
+        width:90vw;
        display:flex;
        justify-content: center;
+       align-items: center;
     }
     .project-intro-description-title h2{
         color:rgb(0, 0, 0);
         font-family:'Monument Extended';
-        font-size: 5rem;
+        font-size: 3rem;
     }
     
     .project-intro-description-description p{

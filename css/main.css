@@ -254,7 +254,7 @@ nav span a:hover, nav span a:focus{
     box-shadow: 0 0 10px rgb(149, 148, 150);
     margin-bottom: 3rem;
     /* animation:fade-in 1s; */
-    opacity: 0;
+    opacity: 1;
     /* transform: translateY(50vh);
     visibility: hidden;
     transition: opacity 0.6s ease-out, transform 1.2s ease-out;
@@ -451,7 +451,7 @@ footer {
 
 
   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     header {
         width: 100vw;
         height:auto;
@@ -482,7 +482,7 @@ footer {
     }
 
     footer {
-        width: 98%;
+        width: 100vw;
         padding: 20px 0; 
     }
 
@@ -525,12 +525,15 @@ footer {
     }
     
     .project-card{
-        width:90vw;
-        /* display: flex;
-        flex-direction: column; */
-        border: 1px solid rgb(0, 0, 0);
-        box-shadow: 0 0 10px #3a3a3a;
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        /* border: 1px solid rgb(0, 0, 0); */
+        box-shadow: 0 0 10px #929292;
         margin-bottom: 3rem;
+        
     }
     
     .project-card-detail{
@@ -538,7 +541,7 @@ footer {
         flex-direction: column;
         justify-content: space-between;
         /* align-items: center;  */
-        width: 90vw;
+        width: 80vw;
         /* margin-left: 2rem; */
     }
     
@@ -549,7 +552,7 @@ footer {
     }
     
     .project-card p{
-        width: 100%;
+        width: 90%;
         color:rgb(0, 0, 0);
         margin-top: 2rem;
     
@@ -569,13 +572,16 @@ footer {
     }
       
     .project-card img{
-        width: 90vw;
+        width: 90%;
         height: auto;
         /* margin: 2rem; */
+        align-items: center;
+        
     
     }
     .project-card-image{
-        width: 90vw;
+        
+        width: 90%;
         margin: 2rem;
         height: auto;
         padding: 0;

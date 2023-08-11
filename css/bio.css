@@ -8,43 +8,19 @@
 .profile-image{
     padding:3rem;
 }
-/* .profile-image bio-profile{
-    position: absolute;
-    z-index:1;
-}
-.profile-image bio-flower{
-    position: absolute;
-    z-index:2;
-    opacity: 0;
-}
-.profile-image bio-orange{
-    position: absolute;
-    z-index:3;
-    opacity: 0;
-} */
 
 .profile-intro{
     padding:3rem;
 }
-/* 
-.flower-hover{
-    text-decoration:none;
-    color: rgb(238, 136, 20);
-}
 
-.flower-hover:hover,.flower-hover:focus{
-    .profile-image bio-flower{
-        opacity: 100;
+
+@media screen and (max-width: 1000px) {
+    .profile{
+        /* width: 100vw; */
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        padding: 3rem;
     }
 }
-
-.food-hover:hover,.food-hover:focus{
-    .profile-image bio-orange{
-        opacity: 100;
-    }
-}
-
-.food-hover{
-    text-decoration: none;
-    color: rgb(208, 54, 144);
-} */
