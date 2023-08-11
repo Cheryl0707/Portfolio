@@ -163,10 +163,10 @@ nav span a:hover, nav span a:focus{
     /* transform: translateY(-6rem); */
 	/* animation: up 500ms linear forwards; */
 	z-index: 1;
-    animation:fade-in 1s;
+    animation:fade-in 2s;
 }
 
-/* fade-in animation: https://codepen.io/felixsanz/pen/dXbdKY */
+/* title fade-in animation: https://codepen.io/felixsanz/pen/dXbdKY */
     @keyframes fade-in { 
         0% {
           opacity: 0;
@@ -253,8 +253,16 @@ nav span a:hover, nav span a:focus{
     /* border: 1px solid rgb(163, 158, 237); */
     box-shadow: 0 0 10px rgb(149, 148, 150);
     margin-bottom: 3rem;
-    animation:fade-in 1s;
+    /* animation:fade-in 1s; */
+    opacity: 0;
+    /* transform: translateY(50vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility; */
 }
+
+
+
 
 .project-card-detail{
     display: flex;
