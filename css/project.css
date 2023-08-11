@@ -224,6 +224,7 @@ body{
         color:rgb(0, 0, 0);
         font-family:'Monument Extended';
         font-size: 3rem;
+        margin-right: 2rem;
     }
     
     .project-intro-description-description p{
@@ -329,7 +330,24 @@ body{
     
     .project-image-gallery-elements img{
         width: 100%;
-        height:auto;
+        height: auto;
+    }
+
+    .grids4-display{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 6rem;
+    }
+    
+    .grid-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin: 1rem; */
     }
 
 }
