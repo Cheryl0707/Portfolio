@@ -165,6 +165,7 @@ body{
     width: 90vw;
     display: flex;
     justify-content: space-between;
+    margin-left: 4rem;
 }
 
 .grid-section{
