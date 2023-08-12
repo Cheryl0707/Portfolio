@@ -111,6 +111,7 @@ body{
 
 .project-intro p{
     width: 80%;
+    font-size: 1rem;
 }
 
 .project-intro-relate-image{
@@ -256,6 +257,10 @@ body{
         display: flex;
         flex-direction: column;
         width:80vw;
+    }
+    .project-intro p{
+        font-size: 2rem;
+
     }
     .project-intro h4,.project-intro p{
         justify-content: center;

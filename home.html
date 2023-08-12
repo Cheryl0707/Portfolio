@@ -2,9 +2,12 @@
 <html>
     <head>
         <title>Cheryl Liu</title>
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        
         <!-- <link rel="stylesheet" href="./cursor.scss"> -->
     </head>
     <body>
@@ -29,7 +32,7 @@
           <section id="INTRO">
             <div class="main-intro">
                 <div class="main-intro-headline">
-                    <h2 class="main-intro-headline-big">Hi! I'm Cheryl.</h2>
+                    <h2 class="main-intro-headline-big" data-aos="zoom-in">Hi! I'm Cheryl.</h2>
                     <p class="main-intro-headline-small"> I am a Graphic Designer, Videographer, <br>Creative and more than a designer.</p>
 
                 </div>
@@ -37,41 +40,14 @@
             </div>
           </section>
 
-<script>
-$(function(){  // $(document).ready shorthand
-  $('.projects').fadeIn('slow');
-});
-
-$(document).ready(function() {
-    
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-    
-        /* Check the location of each desired element */
-        $('.project-card').each( function(i){
-            
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-                
-                $(this).animate({'opacity':'1'},1500);
-                    
-            }
-        }); 
-    });  
-});
-
-</script>
           <div class="projects-container">
                 <div class="projects">
-                        <div class="project-card">
-                            <div class="project-card-detail">
+                        <div class="project-card" data-aos="fade-up">
+                            <div class="project-card-detail" >
                                 <h3>Chapel Speaker</h3>
                                 <p>We were inspired by the Notre Dame de Paris and the Victor Hugo novel of the same name to create a bluetooth speaker with a distinctive gothic style modeled after the cathedral. We incorporated the pointed arches, stained-glasses windows, ribbed vaults, and spires into the speaker form and designed the speaker to provide an immersive acoustic experience and excellent aesthetic experience for the user. The main Bluetooth speaker is stored in the middle under the engraved wood panel and users can remotely control the speaker with digital devices. 
                                 </p>
-                                <button class="custom-btn btn-13"><a href="../Portfolio/html/Chapel-project.html">Read More</a></button>
+                                <a href="../Portfolio/html/Chapel-project.html" class="custom-btn btn-13">Read More</a>
                             </div>
                             <div class="project-card-image">
                                 <a href="../Portfolio/html/Chapel-project.html"><img src="image/chapel-cover.png" alt="chapel-project-img"></a>
@@ -79,12 +55,12 @@ $(document).ready(function() {
                         </div>
                 
 
-                        <div class="project-card">
-                            <div class="project-card-detail">
+                        <div class="project-card" data-aos="fade-up">
+                            <div class="project-card-detail" >
                                 <h3>Music Recitals in Holland Park</h3>
                                 <p>The musical recital is a relax and chill open space in Holland Park. We sought to integrate nature into our design ethos. Our emphasis on nature led us to strategically position the pavilion to maximize natural light penetration, creating an interior space that connects intimately with the sun's radiance throughout the day. This deliberate choice enhances the visitors' immersion in the natural surroundings upon entering the pavilion.
                                 </p>
-                                <button class="custom-btn btn-13"><a href="../Portfolio/html/pavillion.html">Read More</a></button>
+                                <a href="../Portfolio/html/pavillion.html" class="custom-btn btn-13">Read More</a>
                                 </div>
                             <div class="project-card-image">
                                 <a href="../Portfolio/html/pavillion.html"><img src="image/p-intro2.png" alt="chapel-project-img"></a>
@@ -122,6 +98,10 @@ $(document).ready(function() {
             </div>
         </footer>
 
+        <script>
+            AOS.init();
+          </script>
+            
     </body>
 
 </html>
