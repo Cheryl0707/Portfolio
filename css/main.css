@@ -289,19 +289,19 @@ nav span a:hover, nav span a:focus{
 
 /* 13 */
 .custom-btn {
-    width: 130px;
-    height: 40px;
+    width: 80px;
+    height: 20px;
     color: #fff;
     border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
+    padding: 13px 40px;
+    font-family: 'Roobert-Regular', sans-serif;
+    font-weight: 600;
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
      7px 7px 20px 0px rgba(0,0,0,.1),
      4px 4px 5px 0px rgba(0,0,0,.1);
     outline: none;
@@ -342,37 +342,7 @@ nav span a:hover, nav span a:focus{
   .btn-13:active {
     top: 2px;
   }
-/* button {
-    opacity:0.7;
-    padding: 15px 32px;
-    border: none;
-    background-color: rgb(163, 158, 237);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 2rem;
-    cursor: pointer;
-    box-shadow: 0 0 6px rgb(163, 158, 237);
-}
 
-button:hover, button:focus {
-
-    transition: all 1s ease;
-    padding: 15px 32px;
-    border: none;
-    background-color: rgb(160, 209, 255);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 2rem;
-    cursor: pointer;
-    box-shadow: 0 0 6px rgb(160, 209, 255);
-}
-   */
 .project-card img{
     width: 40vw;
     height: auto;
@@ -578,7 +548,7 @@ footer {
     
     
     }
-    button {
+    /* button {
         padding: 15px 32px;
         border: none;
         background-color: antiquewhite;
@@ -589,7 +559,7 @@ footer {
         font-size: 16px;
         margin-top: 2rem;
         cursor: pointer;
-    }
+    } */
       
     .project-card img{
         width: 90%;
