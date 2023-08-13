@@ -4,6 +4,9 @@ body{
     /* border: 1px solid rgb(0, 0, 0); */
     /* margin: 1rem; */
 }
+.project-intro{
+    padding: 0;
+}
 
 .project-intro-description{
     width: 100vw;
@@ -14,10 +17,11 @@ body{
     margin-top: 10rem;
     margin-left: 6rem;
 }
+
 .project-intro-description-title h2{
     color:rgb(0, 0, 0);
     font-family:'Monument Extended';
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .project-intro-description-description{
@@ -163,10 +167,10 @@ body{
 /* grid column */
 
 .grids4-display{
-    width: 90vw;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
-    margin-left: 4rem;
+   align-items: center;
 }
 
 .grid-section{
@@ -202,3 +206,234 @@ body{
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+
+@media screen and (max-width: 900px) {
+    .main-logo{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin:0;
+    }
+    .main-logo h2{
+        margin:0;
+        margin-top: 1rem;
+    }
+   
+    .main-intro{
+        width:100VW;
+        height: 60vw;
+    }
+
+    .nav-bar{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    nav{
+        
+        margin:0;
+
+    }
+    nav a{
+        font-size:16px;
+        margin-left:2rem;
+        margin-right:2rem;
+    }
+    footer {
+        width: 100vw;
+        padding: 20px 0; 
+    }
+
+    .footer-content {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%; 
+        text-align: center; 
+        margin-bottom: 1rem; 
+    }
+
+    .bottom-section p {
+        font-size: 12px; 
+    }
+
+
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .project-detail{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .project-intro-description{
+        width: 100vw;
+        border-bottom: 1px solid rgb(185, 185, 185);
+    }
+    
+    .project-intro-description-title{
+       width:60vw;
+    }
+    .project-intro-description-title h2{
+        color:rgb(0, 0, 0);
+        font-family:'Monument Extended';
+        font-size: 2rem;
+    }
+    .project-intro-description-title{
+        margin-top: 5rem;
+        margin-left: 3rem;
+    }
+    .project-intro-description-description{
+        margin-left: 3rem;
+        width: 60%;
+    }
+    .project-intro-description-description p{
+        justify-content: center;
+        width: 80vw;
+        color:rgb(0, 0, 0);
+        font-family:'Roobert-Regular';
+        font-size: 1rem;
+    }
+
+    .project-intro-description-everything-at-a-glance{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        width: 80%;
+        align-items:flex-start;
+        margin-left:3rem;
+        margin-top: 3rem;
+    }
+    
+    .project-intro-description-everything-at-a-glance p,.project-intro-description-everything-at-a-glance h4{
+        font-size: 1.3rem;
+    }
+  
+
+    .project-intro{
+        margin: 1rem;
+        padding-left: 3rem;
+        display: flex;
+        flex-direction: column;
+        width:80vw;
+    }
+    .project-intro h4,.project-intro p{
+        align-items: center;
+    }
+
+    .project-intro-relate-image{
+        /* justify-content: center; */
+        width: 100vw;
+        display: flex;
+    }
+
+    .project-intro-relate-image img{
+        /* justify-content: center; */
+        margin-left: 4rem;
+        width: 60vw;
+        height:auto;
+    }
+        /* video */
+
+.project-detail-video{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-video-intro{
+
+    padding-left: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.project-video-intro h4{
+    /* margin: 4rem; */
+    /* padding-left: 12rem; */
+    justify-content: center;
+}
+
+.project-intro-relate-video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-intro-relate-video video{
+    /* justify-content: center; */
+    width: 70vw;
+    height:auto;
+}
+
+    .grids4-display{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .grid-section{
+        align-items: center;
+        width: 90%;
+        margin: 1rem;
+    }
+
+    .project-image-gallery3{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .project-image-gallery-elements{
+        width: 80vw; 
+      
+    }
+    
+    .project-image-gallery-elements img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* .grids4-display{
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 3rem;
+    }
+    
+    .grid-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin: 1rem; */
+    /* }  */
+
+    }
