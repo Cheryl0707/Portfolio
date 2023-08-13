@@ -440,8 +440,8 @@ footer {
         display: flex;  
         justify-content: space-evenly;
         align-items: center;
-        margin-top: 1rem; 
-        margin-bottom: 3rem; 
+        /* margin-top: 1rem;  */
+        margin-bottom: 2rem; 
 
     }
 
