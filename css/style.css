@@ -68,7 +68,7 @@ nav span a:hover, nav span a:focus{
 
 .branding-color-palette{
     display:flex;
-    align-items: center center;
+    align-items: center;
     /* flex-wrap: wrap; */
   }
   
