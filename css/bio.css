@@ -20,6 +20,51 @@
     height: auto;
     padding:3rem;
 }
+/* .bio-project-intro-relate-image{
+    width: 30vw;
+
+} */
+
+.bio-interest{
+    width:100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.bio-title{
+    margin-top: 3rem;
+}
+
+.bio-interest-explain{
+    margin-left: 6rem;
+    width: 40vw;
+
+}
+.bio-interest-explain1{
+    margin-right: 6rem;
+    width: 40vw;
+
+}
+.bio-interest-explain p{
+    font-size: 2rem;
+
+}
+.bio-interest-explain1 p{
+    font-size: 2rem;
+
+}
+
+.bio-video{
+    width: 40vw;
+
+}
+.bio-video1{
+    width: 40vw;
+    margin-left: 6rem;
+}
 
 @media screen and (max-width: 900px) {
     .profile{
@@ -108,5 +153,30 @@
         display:flex;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+
+    .bio-interest{
+        width:90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bio-title{
+       width: 90vw;
+    }
+    
+    .bio-interest-explain{
+        width: 90vw;
+    }
+    .bio-interest-explain p{
+        font-size: 0.9rem;
+    
+    }
+    
+    .bio-video{
+        margin-left: 3rem;
+        width: 90vw;
     }
 }

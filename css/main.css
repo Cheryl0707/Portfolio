@@ -1,5 +1,17 @@
 /* title animated-text effect */
 @import url('https://fonts.googleapis.com/css?family=Roboto:500,700');
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
 
 span.dotted-purple{
     border-bottom: 1px dashed rgb(163, 158, 237);
@@ -12,6 +24,16 @@ span.dotted-blue{
     text-decoration: none; 
     color: rgb(163, 158, 237);
 } 
+span.dotted-purple:hover,span.dotted-purple:focus{
+    transition: all 1s ease;
+    color: rgb(160, 209, 255);
+    text-shadow: 0 0 9px rgb(194, 231, 255);
+}
+span.dotted-blue:hover,span.dotted-blue:focus{
+    transition: all 1s ease;
+    color: rgb(160, 209, 255);
+    text-shadow: 0 0 9px rgb(194, 231, 255);
+}
 
 body {
     width: 100vw;
@@ -52,9 +74,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 1px solid rgb(185, 185, 185);
+} 
 
-
-}
 .main-logo{
     width: 25vw;
     height: 10vh;
@@ -440,8 +461,7 @@ footer {
         display:flex;
         flex-direction: column;
         justify-content: space-evenly;
-    }
-
+    } 
 
 
     .project-card{
