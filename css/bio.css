@@ -1,9 +1,22 @@
+.dotted-purple{
+    border-bottom: 1px dashed rgb(163, 158, 237);
+    text-decoration: none; 
+    color: rgb(163, 158, 237);;
+} 
+
+.dotted-blue{
+    border-bottom: 1px dashed rgb(163, 158, 237);
+    text-decoration: none; 
+    color: rgb(163, 158, 237);
+} 
+
 .profile{
     width: 100vw;
     display: flex;
     justify-content:flex-start;
     /* padding: 3rem; */
 }
+
 
 .profile-image{
     width:40vw;
@@ -20,11 +33,10 @@
     height: auto;
     padding:3rem;
 }
-/* .bio-project-intro-relate-image{
-    width: 30vw;
 
-} */
-
+.profile-intro h3 a{
+    color: rgb(163, 158, 237);
+}
 .bio-interest{
     width:100vw;
     height: auto;
@@ -93,10 +105,46 @@
 
 .grid3-section img{
     width: 100%;
-
     height: auto;
 }
 
+
+
+
+/* payment form */
+  
+input{
+    background-color: rgb(255, 255, 255);
+    display: block;
+
+}
+.payment_form{
+  max-width: 40rem;
+  /* background-color: #000000; */
+  padding-bottom: 1rem;
+
+}
+.payment_form h2{
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+.payment_form label{
+   display:block;
+   padding-bottom: 1rem;
+   padding-top: 1rem;
+   
+}
+
+.payment_form input[type="text"]{
+  min-width: 93%;
+  /* padding: 0.6rem; */
+  /* margin-right: 1rem; */
+  /* margin-left: 1rem; */
+  border: 1px solid #777777;
+  border-radius: 1px;
+  /* margin-bottom: 0.5rem; */
+}
 @media screen and (max-width: 900px) {
     .profile{
         display: flex;  
