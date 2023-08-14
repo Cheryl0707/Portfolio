@@ -1,0 +1,118 @@
+.style-guidance{
+color:green
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover, a:focus{
+    color:rgb(163, 158, 237);
+    text-shadow: 0 0 9px rgb(198, 194, 255);
+    transition: all 1s ease;
+}
+h1,h2,h3,h4{
+    color:#000000;
+    font-family: 'Monument Extended';
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1rem;
+}
+h4{
+    font-size: 0.6rem;
+}
+p{
+    color:#000000;
+    font-family: 'Roobert-Regular';  
+}
+
+nav{
+    display: flex;  
+    justify-content: space-between;
+    margin-right: 3rem;
+    margin-top: 2.5rem;
+}
+
+nav a{
+    /* background-color: rgb(255, 64, 0); */
+      color:rgb(0, 0, 0);
+      font-family:'Monument Extended';
+      margin-right: 2vw;
+      font-size: 1.0rem;
+      text-decoration: none;
+}
+nav a:hover, .nav a:focus{
+ 
+    color: rgb(163, 158, 237);
+    text-decoration: none;
+    transition: background-color 0.5s ease-out;
+}
+
+nav span a{
+        color: rgb(163, 158, 237);
+        text-shadow: 0 0 9px rgb(198, 194, 255);
+}
+
+nav span a:hover, nav span a:focus{
+    /* transition: 1s ease-in-out; */
+    color: rgb(160, 209, 255);
+    text-shadow: 0 0 9px rgb(194, 231, 255);
+    transition: all 1s ease;
+}
+
+.branding-color-palette{
+    display:flex;
+    align-items: center center;
+    /* flex-wrap: wrap; */
+  }
+  
+  
+  .color-background-color-purple{
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+    padding: 9px;
+    margin-right: 10px;
+    background-color: rgb(163, 158, 237);
+  }
+  .color-background-color-blue{
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+    padding: 9px;
+    margin-right: 10px;
+    background-color: rgb(160, 209, 255);
+  }
+  .color-background-color-white{
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+    padding: 9px;
+    margin-right: 10px;
+    background-color: rgb(249, 249, 249);
+  }
+  .color-background-color-black{
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+    padding: 9px;
+    margin-right: 10px;
+    background-color: rgb(0, 0, 0);
+  }
+  
+
+  
+  
+  
+  .color-name {
+    font-family: 'Monument Extended';
+    font-weight: normal;
+    /* align-items: center; */
+    margin: 10px;
+  }
