@@ -341,7 +341,7 @@ nav span a:hover, nav span a:focus{
 .project-card-image:hover img{
     -webkit-transform: scale(1.06);
 	transform: scale(1.06);
-    opacity:0.5;
+    /* opacity:0.5; */
 }
 
 footer {
@@ -390,6 +390,39 @@ footer {
     font-size: 14px;
   }
 
+  /*PROJECTS OVERVIEW*/
+  .projects-overview{
+    padding-top: 10vh;
+    margin: 1rem;
+    width: 99vw;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  .single-project-overview{
+    width: 30vw;
+    height: auto;
+  }
+  .single-project-overview-image{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+  }
+
+  .single-project-overview-image img{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+
+  .single-project-overview-image img:hover,.single-project-overview-image img:focus {
+    -webkit-transform: scale(1.03);
+	transform: scale(1.03);
+  }
+  
+  
 @media screen and (max-width: 600px){
     .main-intro{
         width:100VW;
