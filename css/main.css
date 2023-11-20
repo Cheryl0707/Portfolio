@@ -52,11 +52,12 @@ a{
 h1,h2,h3,h4{
     color:#000000;
     font-family: 'Monument Extended';
+
 }
 
 p{
     color:#000000;
-    font-family: 'Roobert-Regular';  
+    font-family:'Futura';
 }
 
 /* add text shadow to the hovered texts: https://www.youtube.com/watch?v=I_RhD99rR0c */
@@ -86,6 +87,7 @@ header {
 }
 
 
+
 nav{
     display: flex;  
     justify-content: space-between;
@@ -96,7 +98,7 @@ nav{
 nav a{
     /* background-color: rgb(255, 64, 0); */
       color:rgb(0, 0, 0);
-      font-family:'Monument Extended';
+      font-family:'Futura';
       margin-right: 2vw;
       font-size: 1.0rem;
       text-decoration: none;
